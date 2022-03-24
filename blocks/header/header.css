@@ -1,0 +1,6 @@
+.header {
+  padding: 16px 16px 0 16px;
+  display: grid;
+  grid-template-columns: auto 22px 22px;
+  column-gap: 18px;
+}
