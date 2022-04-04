@@ -1,0 +1,6 @@
+.photo-grid {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
