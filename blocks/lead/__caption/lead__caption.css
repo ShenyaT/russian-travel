@@ -14,3 +14,15 @@
   align-self: start;
   margin: 0;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__caption {
+    padding: 8px 48px 0 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__caption {
+    padding: 8px 148px 0 148px;
+  }
+}

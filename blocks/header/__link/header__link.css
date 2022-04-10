@@ -1,0 +1,11 @@
+.header__link {
+  width: 142px;
+  height: 42px;
+}
+
+@media screen and (min-width: 426px) {
+  .header__link {
+    width: 176px;
+    height: 52px;
+  }
+}
