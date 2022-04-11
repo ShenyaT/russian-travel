@@ -11,11 +11,13 @@
   margin: 0;
 }
 
-.place__paragraph:first-child {
-}
+@media screen and (min-width: 768px) {
+  .place__paragraph {
+    padding: 0;
+    grid-column-start: 2;
+  }
 
-.place__paragraph:last-child {
-}
-
-.place__paragraph:nth-child() {
+  .place__paragraph:not(:last-child) {
+    padding-bottom: 25px;
+  }
 }
