@@ -10,7 +10,6 @@
     padding-bottom: 72px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     column-gap: 28px;
     row-gap: 48px;
     padding: 0 24px;
@@ -20,7 +19,6 @@
   .place {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     column-gap: 32px;
     row-gap: 48px;
     padding-bottom: 80px;
@@ -31,7 +29,6 @@
   .place {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     column-gap: 40px;
     row-gap: 48px;
     padding-bottom: 80px;
