@@ -4,13 +4,13 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
-  padding: 0 16px;
   /* or 110% */
   text-align: center;
   color: #ffffff;
   margin: 0;
   padding: 0 16px;
 }
+
 @media screen and (min-width: 768px) {
   .lead__title {
     padding: 0 24px;
