@@ -10,3 +10,13 @@
   align-self: start;
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__link {
+    align-self: flex-end;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+    padding-right: 18px;
+  }
+}

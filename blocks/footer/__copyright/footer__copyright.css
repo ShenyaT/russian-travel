@@ -9,3 +9,12 @@
   color: #ffffff;
   padding-top: 48px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+    align-self: flex-end;
+    margin-left: auto;
+  }
+}
