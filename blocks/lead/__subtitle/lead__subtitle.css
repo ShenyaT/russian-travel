@@ -4,7 +4,7 @@
   line-height: 20px;
   /* or 125% */
   text-align: center;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   color: #ffffff;
   margin: 0;
@@ -16,5 +16,19 @@
     font-size: 30px;
     line-height: 36px;
     padding: 32px 64px 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__subtitle {
+    max-width: 640px;
+    padding: 32px 0 56px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    max-width: 640px;
+    padding: 32px 148px 64px;
   }
 }

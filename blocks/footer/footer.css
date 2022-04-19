@@ -7,16 +7,14 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .footer {
     flex-direction: row;
-    height: 130px;
-    padding: 24px;
+    padding: 88px 24px 24px 24px;
     align-items: flex-end;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer {
     flex-direction: row;
-    height: 130px;
-    padding: 24px 48px;
+    padding: 88px 48px 24px 48px;
     align-items: flex-end;
   }
 }
@@ -24,8 +22,7 @@
 @media screen and (min-width: 1280px) {
   .footer {
     flex-direction: row;
-    height: 130px;
-    padding: 24px 48px;
+    padding: 88px 48px 24px 48px;
     align-items: flex-end;
   }
 }

@@ -5,10 +5,11 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
+  width: 100%;
   height: calc(62.5vw);
   text-decoration: none;
   cursor: pointer;
-  background: url(../../images/cover__background.jpg);
+  background: url(../../images/cover__background.jpg) no-repeat;
   background-size: contain;
 }
 
@@ -27,4 +28,11 @@
 
 .cover:hover::after {
   opacity: 0.8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    height: 740px;
+    width: 1184px;
+  }
 }

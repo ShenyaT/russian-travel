@@ -5,33 +5,34 @@
   padding-bottom: 50px;
 }
 
+.place:last-child {
+  padding-bottom: 0;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: calc(50% - 21px) calc(50% - 7px);
     column-gap: 28px;
     row-gap: 48px;
-    padding: 0 24px;
-    padding-bottom: 72px;
+    padding: 0 24px 72px 24px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: calc(50% - 24px) calc(50% - 8px);
     column-gap: 32px;
     row-gap: 48px;
-    padding: 0 48px;
-    padding-bottom: 80px;
+    padding: 0 48px 80px 48px;
   }
 }
 @media screen and (min-width: 1280px) {
   .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 460px 1fr;
     column-gap: 40px;
     row-gap: 48px;
-    padding: 0 148px;
-    padding-bottom: 80px;
+    padding: 0 148px 80px 148px;
   }
 }
