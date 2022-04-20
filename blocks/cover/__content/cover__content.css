@@ -10,7 +10,7 @@
   text-decoration: none;
   cursor: pointer;
   background: url(../../../images/cover__background.jpg) no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .cover__content::after {
