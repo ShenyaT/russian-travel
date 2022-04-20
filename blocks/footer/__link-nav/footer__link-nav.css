@@ -1,3 +1,9 @@
 .footer__link-nav {
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__link-nav {
+    flex-direction: column;
+  }
+}

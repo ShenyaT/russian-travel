@@ -11,6 +11,10 @@
   transition: opacity 0.4s ease-in-out;
 }
 
+.header__lang-link:hover {
+  opacity: 0.5;
+}
+
 @media screen and (min-width: 426px) {
   .header__lang-link {
     padding-top: 18px;
